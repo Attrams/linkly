@@ -10,6 +10,7 @@ defmodule Linkly.Application do
     children = [
       # Starts a worker by calling: Linkly.Worker.start_link(arg)
       # {Linkly.Worker, arg}
+      Linkly.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
